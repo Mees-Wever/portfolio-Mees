@@ -40,18 +40,20 @@ body {
 
     h1 {
         font-size: 4em;
+        padding: 40px;
     }
 
     p {
         font-size: 2em;
+        padding: 40px;
     }
 
     img {
-        max-width: 30%;
+        max-width: 40%;
         height: auto;
         display: flex;
         align-items: flex-end;
-        }
+    }
 
     .cta-links {
         list-style: none;
@@ -63,7 +65,7 @@ body {
             color: white;
             font-size: 2em;
             margin: 2em;
-            padding: 1em;
+            padding: 20px;
             background-color: rgb(69, 69, 226);
         }
     }
