@@ -26,26 +26,45 @@ body {
 
 .cta {
     color: white;
-    background-color: rgb(52, 52, 52);
+    background-color: rgb(50, 50, 50);
     margin: 3em;
+    padding: 1em;
+    display: flex;
 
-
-
-    h1 {
+    h1,
+    p {
         margin: 0;
         display: flex;
         flex-direction: column;
     }
 
+    h1 {
+        font-size: 4em;
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    img {
+        max-width: 30%;
+        height: auto;
+        display: flex;
+        align-items: flex-end;
+        }
+
     .cta-links {
         list-style: none;
         display: flex;
+        align-self: flex-end;
 
         a {
             text-decoration: none;
             color: white;
-            margin: 1em;
-            padding: 2em, 1em;
+            font-size: 2em;
+            margin: 2em;
+            padding: 1em;
+            background-color: rgb(69, 69, 226);
         }
     }
 }
@@ -53,12 +72,12 @@ body {
 .foot {
     margin: 3em;
     list-style: none;
+    background-color: rgb(50, 50, 50);
+    padding: 2em;
 
     a {
         text-decoration: none;
+        color: white;
+        font-size: 2em;
     }
-}
-
-.informatie {
-    color: white;
 }
