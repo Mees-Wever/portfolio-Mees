@@ -7,7 +7,7 @@ body {
 .navagation {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1em;
     margin: 3em;
 
@@ -80,7 +80,7 @@ body {
     background-color: rgb(50, 50, 50);
     padding: 2em;
     font-size: 1em;
-    margin: 0 2em 0 2em;
+    margin: 0 3em;
 
     h2 {
         margin: 0;
@@ -137,6 +137,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    h1,
+    h2,
+    p {
+        margin: 15px 0 0 20px;
+    }
 }
 
 .formulier {
@@ -152,4 +158,14 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.vuller-pics {
+background-color: rgb(50, 50, 50);
+display: flex;
+flex-wrap: wrap;
+margin: 3em;
+img {
+    margin: 2em 2em 0 2em;
+}
 }

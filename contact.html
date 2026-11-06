@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact-Mees</title>
+    <meta name="description" content="Een manier om contact te maken.">
     <!-- Bedenk een geschikte titel
      Kijk even naar meta description w3 schools -->
     <link rel="stylesheet" href="main.css">
@@ -17,12 +18,13 @@
             <li><a href="mees.html">Mees</a></li>
             <li><a href="interview.html">Interview</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="nieuwe_projecten.html">Toekomstige projecten</a></li>
         </ul>
     </nav>
     <section class="formulier">
         <div>
             <form action="" class="invoerveld">
-                <input type="text" pattern="[A-Za-z]{}" placeholder="Naam, Achternaam">
+                <input type="text" pattern="[A-Za-z]{}" placeholder="Naam, Achternaam" required>
                 <input type="text" pattern="[0-9]{4}[A-Za-z]{2}" placeholder="Poscode" required>
                 <input type="text" placeholder="Woonplaats"required>
                 <legend>Selecteer uw gender</legend>
@@ -42,7 +44,7 @@
                 <label for="landen">
                     <select name="land" id="land" required>
                         <option value="nederland">Nederland</option>
-                        <option value="deutchland">Deutchland</option>
+                        <option value="duitsland">Duitsland</option>
                         <option value="england">England</option>
                         <option value="belgie">Belgie</option>
                     </select>
