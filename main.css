@@ -121,7 +121,7 @@ body {
     td {
         border: 2px solid rgb(69, 69, 226);
         border-collapse: collapse;
-        font-size: 1.em;
+        font-size: 1em;
     }
 
     iframe {
@@ -161,11 +161,12 @@ body {
 }
 
 .vuller-pics {
-background-color: rgb(50, 50, 50);
-display: flex;
-flex-wrap: wrap;
-margin: 3em;
-img {
-    margin: 2em 2em 0 2em;
-}
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3em;
+
+    img {
+        margin: 2em 2em 0 2em;
+    }
 }
