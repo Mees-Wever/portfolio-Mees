@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bedenk een geschikte titel
+     Kijk even naar meta description w3 schools -->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="navagation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mees.html">Mees</a></li>
+            <li><a href="interview.html">Interview</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="formulier">
+        <div>
+            <form action="" class="invoerveld">
+                <input type="text" pattern="[A-Za-z]{}" placeholder="Naam, Achternaam">
+                <input type="text" pattern="[0-9]{4}[A-Za-z]{2}" placeholder="Poscode" required>
+                <input type="text" placeholder="Woonplaats"required>
+                <legend>Selecteer uw gender</legend>
+                <div>
+                    <input type="radio" id="dhr" name="gender" value="dhr" checked />
+                    <label for="dhr">Dhr.</label>
+                </div>
+                <div>
+                    <input type="radio" id="mevr" name="gender" value="mevr" />
+                    <label for="mevr">Mevr.</label>
+                </div>
+                <div>
+                    <input type="radio" id="anders" name="gender" value="anders" />
+                    <label for="anders">Anders</label>
+                </div>
+                <h2>Land</h2>
+                <label for="landen">
+                    <select name="land" id="land" required>
+                        <option value="nederland">Nederland</option>
+                        <option value="deutchland">Deutchland</option>
+                        <option value="england">England</option>
+                        <option value="belgie">Belgie</option>
+                    </select>
+                </label>
+                <input type="email" placeholder="Email" required>
+                <input type="submit" value="Neem contact op">
+            </form>
+        </div>
+        <div>
+            <img src="Images/mees-foto's/mees-contact.jpeg" alt="Mees met armen gespreid met bergen op achtergrond"
+                height="400">
+        </div>
+
+    </section>
+</body>
+
+</html>
